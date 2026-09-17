@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7DCVW0VGLF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7DCVW0VGLF');
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '7977617505597315');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=7977617505597315&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<title>Portugal Property Black Book | Private Luxury Collection</title>
+<meta name="description" content="Private-client intelligence on buying property in Portugal — Algarve, Lisbon &amp; Comporta. Request your confidential copy, reviewed personally.">
+<link rel="canonical" href="https://blackbook.privateluxurycollection.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Private Luxury Collection">
+<meta property="og:title" content="The Portugal Property Black Book">
+<meta property="og:description" content="Private-client intelligence on buying property in Portugal — Algarve, Lisbon & Comporta.">
+<meta property="og:url" content="https://blackbook.privateluxurycollection.com/">
+<meta property="og:image" content="https://blackbook.privateluxurycollection.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Portugal Property Black Book">
+<meta name="twitter:description" content="Private-client intelligence on buying property in Portugal — Algarve, Lisbon & Comporta.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0F0F12;
+    --charcoal:#1E1E1E;
+    --paper:#F7F7F5;
+    --paper-alt:#EFEEE9;
+    --gild:#A49676;
+    --gild-bright:#C2AF87;
+    --umber:#6E6251;
+    --graphite:#2A2A2E;
+    --hairline: rgba(15,15,18,0.13);
+    --hairline-dark: rgba(247,247,245,0.16);
+    --ink-soft: rgba(15,15,18,0.72);
+    --font-display: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --gutter: clamp(20px, 6vw, 96px);
+    --measure: 640px;
+    color-scheme: light;
+  }
+
+  *{ box-sizing: border-box; }
+  html{ scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior: auto; }
+    *{ animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+
+  body{
+    margin:0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  img{ max-width:100%; }
+  [hidden]{ display:none !important; }
+
+  a{ color: inherit; }
+
+  .wrap{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-inline: var(--gutter);
+  }
+
+  /* ---------- Top bar ---------- */
+  .topbar{
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+    padding: 18px var(--gutter);
+    background: rgba(247,247,245,0.86);
+    backdrop-filter: blur(10px) saturate(1.05);
+    -webkit-backdrop-filter: blur(10px) saturate(1.05);
+    border-bottom: 1px solid transparent;
+    transition: border-color .4s ease, background .4s ease;
+  }
+  .topbar.is-scrolled{
+    border-bottom-color: var(--hairline);
+  }
+  .wordmark{
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--ink);
+    text-decoration:none;
+    white-space: nowrap;
+  }
+  .topbar-cta{
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--umber);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gild);
+    padding-bottom: 3px;
+    white-space: nowrap;
+    transition: color .25s ease;
+  }
+  .topbar-cta:hover{ color: var(--ink); }
+
+  /* ---------- Reveal ---------- */
+  .reveal{
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1);
+  }
+  .reveal.is-visible{ opacity: 1; transform: translateY(0); }
+  @media (prefers-reduced-motion: reduce){
+    .reveal{ opacity:1; transform:none; }
+  }
+
+  /* ---------- Eyebrow / labels ---------- */
+  .eyebrow{
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--umber);
+    margin: 0 0 18px;
+  }
+  .eyebrow.on-dark{ color: var(--gild-bright); }
+
+  h1,h2,h3{
+    font-family: var(--font-display);
+    font-weight: 400;
+    line-height: 1.12;
+    margin: 0;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding-block: clamp(40px, 7vw, 88px) clamp(56px, 9vw, 120px);
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns: minmax(0,1.05fr) minmax(280px, 0.85fr);
+    gap: clamp(40px, 6vw, 90px);
+    align-items: center;
+  }
+  .hero h1{
+    font-size: clamp(2.3rem, 4.6vw, 3.9rem);
+    letter-spacing: -0.01em;
+  }
+  .hero-sub{
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+    color: var(--umber);
+    margin: 22px 0 0;
+    max-width: 32ch;
+  }
+  .hero-copy{
+    margin: 28px 0 0;
+    max-width: var(--measure);
+    color: var(--ink-soft);
+    font-size: 1.03rem;
+  }
+  .hero-copy p{ margin: 0 0 16px; }
+  .hero-copy p:last-child{ margin-bottom: 0; }
+
+  .btn{
+    display: inline-block;
+    font-family: var(--font-body);
+    font-size: 0.76rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 17px 34px;
+    border: 1px solid var(--ink);
+    color: var(--paper);
+    background: var(--ink);
+    transition: background .3s ease, color .3s ease, border-color .3s ease, transform .3s ease;
+  }
+  .btn:hover{ background: transparent; color: var(--ink); transform: translateY(-1px); }
+  .btn.ghost{
+    background: transparent;
+    color: var(--paper);
+    border-color: rgba(247,247,245,0.55);
+  }
+  .btn.ghost:hover{ background: var(--paper); color: var(--ink); }
+
+  .hero-cta{ margin-top: 36px; }
+
+  /* ---------- Book mock-up ---------- */
+  .book-stage{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 20px 0;
+  }
+  .book{
+    position: relative;
+    width: min(300px, 72vw);
+    aspect-ratio: 5 / 7;
+    background:
+      linear-gradient(155deg, #232326 0%, var(--charcoal) 42%, var(--ink) 100%);
+    border-radius: 3px 8px 8px 3px;
+    box-shadow:
+      0 2px 0 rgba(255,255,255,0.04) inset,
+      -1px 0 0 rgba(255,255,255,0.03) inset,
+      0 30px 60px -20px rgba(15,15,18,0.45),
+      0 10px 24px -12px rgba(15,15,18,0.35);
+    transform: rotate(-2.5deg);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    padding: 14% 11%;
+  }
+  .book::before{
+    /* spine */
+    content:"";
+    position:absolute;
+    left: 10px;
+    top: 6%;
+    bottom: 6%;
+    width: 1px;
+    background: linear-gradient(rgba(164,150,118,0), rgba(164,150,118,0.55), rgba(164,150,118,0));
+  }
+  .book::after{
+    /* page block edge */
+    content:"";
+    position:absolute;
+    right: -6px;
+    top: 3%;
+    bottom: 3%;
+    width: 6px;
+    background: repeating-linear-gradient(
+      to bottom,
+      #E4DFD2 0px, #E4DFD2 1px,
+      #d8d2c2 1px, #d8d2c2 2px
+    );
+    border-radius: 0 3px 3px 0;
+    box-shadow: 2px 0 6px rgba(0,0,0,0.25);
+  }
+  .book-mark{
+    font-family: var(--font-body);
+    font-size: 0.56rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--gild-bright);
+    opacity: 0.9;
+  }
+  .book-rule{
+    width: 34px;
+    height: 1px;
+    background: var(--gild);
+    margin: 18px 0;
+    opacity: 0.8;
+  }
+  .book-title{
+    font-family: var(--font-display);
+    color: var(--paper);
+    font-size: clamp(1.05rem, 2.6vw, 1.4rem);
+    line-height: 1.35;
+    letter-spacing: 0.01em;
+  }
+  .book-title em{
+    display:block;
+    font-style: normal;
+    font-size: 0.62em;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--gild-bright);
+    margin-top: 10px;
+  }
+  .book-foot{
+    position:absolute;
+    bottom: 12%;
+    font-family: var(--font-body);
+    font-size: 0.52rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: rgba(247,247,245,0.5);
+  }
+  .book-shadow{
+    position:absolute;
+    left: 50%;
+    bottom: -6%;
+    transform: translateX(-50%);
+    width: 72%;
+    height: 26px;
+    background: radial-gradient(ellipse at center, rgba(15,15,18,0.28), rgba(15,15,18,0) 70%);
+    filter: blur(2px);
+  }
+
+  /* ---------- Section shell ---------- */
+  section{ position: relative; }
+  .section{
+    padding-block: clamp(64px, 9vw, 120px);
+  }
+  .section-head{
+    max-width: 720px;
+  }
+  .section h2{
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+  }
+  .rule{
+    border:0;
+    border-top: 1px solid var(--hairline);
+    margin: 0;
+  }
+
+  /* ---------- Section 2: Introduction ---------- */
+  .intro-grid{
+    display:grid;
+    grid-template-columns: minmax(0,0.9fr) minmax(0,1.1fr);
+    gap: clamp(32px, 6vw, 80px);
+    align-items: start;
+  }
+  .intro-body{
+    max-width: var(--measure);
+    color: var(--ink-soft);
+    font-size: 1.03rem;
+  }
+  .intro-body p{ margin: 0 0 18px; }
+  .intro-body p:last-child{ margin-bottom:0; }
+
+  /* ---------- Section 3: What's inside ---------- */
+  .inside-intro{
+    max-width: var(--measure);
+    color: var(--ink-soft);
+    margin: 18px 0 0;
+    font-size: 1.03rem;
+  }
+  .inside-list{
+    margin-top: clamp(36px, 5vw, 56px);
+    border-top: 1px solid var(--hairline);
+  }
+  .inside-item{
+    display:grid;
+    grid-template-columns: minmax(160px, 260px) 1fr;
+    gap: clamp(20px, 4vw, 56px);
+    padding-block: 28px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .inside-item h3{
+    font-size: 1.12rem;
+    font-style: italic;
+    color: var(--ink);
+  }
+  .inside-item p{
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.98rem;
+    max-width: 52ch;
+  }
+
+  /* ---------- Section 4: Who it's for ---------- */
+  .forwho-grid{
+    display:grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,0.9fr);
+    gap: clamp(32px, 6vw, 80px);
+    align-items: start;
+  }
+  .forwho-copy{ color: var(--ink-soft); font-size:1.03rem; max-width: var(--measure); }
+  .forwho-copy p{ margin: 0 0 16px; }
+  .forwho-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--hairline);
+  }
+  .forwho-list li{
+    padding: 16px 0;
+    border-bottom: 1px solid var(--hairline);
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    color: var(--ink);
+  }
+  .forwho-closing{
+    margin-top: 26px;
+    font-family: var(--font-display);
+    font-style: italic;
+    color: var(--umber);
+    font-size: 1.05rem;
+    max-width: 40ch;
+  }
+  .forwho-closing p{ margin: 0 0 8px; }
+
+  /* ---------- Section 5: The Difference (reversed) ---------- */
+  .difference{
+    background: linear-gradient(180deg, var(--ink) 0%, var(--charcoal) 100%);
+    color: var(--paper);
+    padding-block: clamp(90px, 13vw, 160px);
+  }
+  .difference .wrap{
+    max-width: 900px;
+  }
+  .difference h2{
+    color: var(--paper);
+    font-size: clamp(1.9rem, 3.6vw, 2.8rem);
+  }
+  .difference-copy{
+    margin-top: 30px;
+    font-family: var(--font-display);
+    font-size: clamp(1.15rem, 2vw, 1.5rem);
+    line-height: 1.55;
+    color: rgba(247,247,245,0.86);
+    max-width: 30ch;
+  }
+  .difference-copy p{ margin: 0 0 24px; }
+  .difference-copy p:last-child{ margin-bottom: 0; }
+  .difference-copy .accent{
+    color: var(--gild-bright);
+    font-style: italic;
+  }
+  .difference-rule{
+    width: 48px;
+    height:1px;
+    background: var(--gild);
+    margin-bottom: 30px;
+  }
+
+  /* ---------- Section 6: Form ---------- */
+  .request-intro{
+    max-width: var(--measure);
+    color: var(--ink-soft);
+    font-size: 1.03rem;
+    margin-top: 18px;
+  }
+  .request-intro p{ margin: 0 0 12px; }
+  .request-intro p:last-child{ margin-bottom: 0; }
+
+  .form-shell{
+    margin-top: clamp(36px, 5vw, 56px);
+    max-width: 760px;
+  }
+  form{ display:flex; flex-direction:column; gap: 26px; }
+  .field-row{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+  }
+  .field{ display:flex; flex-direction:column; gap: 8px; }
+  .field label{
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--umber);
+  }
+  .field .optional{
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: rgba(110,98,81,0.7);
+    font-size: 0.78rem;
+  }
+  .field input,
+  .field select{
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--ink);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--hairline);
+    padding: 10px 2px;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    transition: border-color .25s ease;
+  }
+  .field select{
+    background-image: linear-gradient(45deg, transparent 50%, var(--umber) 50%), linear-gradient(135deg, var(--umber) 50%, transparent 50%);
+    background-position: calc(100% - 4px) 18px, calc(100% - 12px) 18px;
+    background-size: 6px 6px, 6px 6px;
+    background-repeat: no-repeat;
+    padding-right: 22px;
+  }
+  .field input:focus,
+  .field select:focus{
+    border-bottom-color: var(--ink);
+  }
+  .field input::placeholder{ color: rgba(15,15,18,0.35); }
+
+  .form-note{
+    font-size: 0.86rem;
+    color: rgba(15,15,18,0.55);
+    max-width: 46ch;
+  }
+
+  .form-submit{ margin-top: 6px; }
+  .form-submit .btn{
+    border-color: var(--ink);
+    cursor: pointer;
+  }
+
+  .form-success{
+    display:flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 40px 0;
+    border-top: 1px solid var(--hairline);
+    max-width: var(--measure);
+  }
+  .form-success h3{
+    font-size: 1.4rem;
+  }
+  .form-success p{
+    margin:0;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- Footer ---------- */
+  footer{
+    border-top: 1px solid var(--hairline);
+    padding-block: 40px;
+  }
+  .footer-grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 22px;
+    font-size: 0.78rem;
+    color: rgba(15,15,18,0.55);
+  }
+  .footer-grid strong{
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .footer-col{ max-width: 340px; }
+  .footer-col p{ margin: 0 0 4px; }
+  .footer-legal{
+    margin-top: 22px;
+    font-size: 0.72rem;
+    color: rgba(15,15,18,0.45);
+  }
+
+  /* ---------- Geo eyebrow / credibility / reassurance ---------- */
+  .eyebrow-sub{
+    font-family: var(--font-body);
+    font-size: 0.66rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--gild);
+    margin: -12px 0 18px;
+  }
+  .hero-credibility{
+    margin: 20px 0 0;
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+    color: var(--umber);
+    max-width: 44ch;
+  }
+  .hero-reassurance{
+    margin: 12px 0 0;
+    font-size: 0.78rem;
+    color: rgba(15,15,18,0.5);
+  }
+  .difference-signature{
+    margin-top: 34px;
+    font-family: var(--font-display);
+    font-style: italic;
+    color: var(--gild-bright);
+    font-size: 1rem;
+  }
+  .request-license{
+    margin-top: 4px;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    color: rgba(15,15,18,0.5);
+  }
+  .consult-fallback{
+    margin-top: 18px;
+    font-size: 0.86rem;
+    color: rgba(15,15,18,0.55);
+  }
+  .consult-fallback a{ color: var(--umber); border-bottom: 1px solid var(--hairline); text-decoration:none; }
+
+  /* ---------- FAQ accordion ---------- */
+  .faq-list{ border-top: 1px solid var(--hairline); }
+  .faq-item{ border-bottom: 1px solid var(--hairline); }
+  .faq-item summary{
+    cursor: pointer;
+    list-style: none;
+    padding: 22px 2px;
+    display:flex;
+    align-items:baseline;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1.06rem;
+    color: var(--ink);
+  }
+  .faq-item summary::-webkit-details-marker{ display:none; }
+  .faq-item summary::after{
+    content: '+';
+    font-family: var(--font-body);
+    font-style: normal;
+    font-size: 1.1rem;
+    color: var(--gild);
+    flex-shrink: 0;
+  }
+  .faq-item[open] summary::after{ content: '–'; }
+  .faq-answer{
+    padding: 0 2px 24px;
+    max-width: var(--measure);
+  }
+  .faq-answer p{
+    margin:0;
+    color: var(--ink-soft);
+    font-size: 0.98rem;
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px){
+    .hero-grid{ grid-template-columns: 1fr; }
+    .hero-copy{ max-width: none; }
+    .book-stage{ order: -1; padding-top: 6px; }
+    .intro-grid,
+    .forwho-grid{ grid-template-columns: 1fr; }
+    .inside-item{ grid-template-columns: 1fr; gap: 8px; }
+    .field-row{ grid-template-columns: 1fr; }
+  }
+  @media (max-width: 520px){
+    .book{ width: min(240px, 66vw); }
+    .topbar{ padding-inline: 16px; }
+    .topbar-cta{ font-size: 0.6rem; letter-spacing: 0.05em; padding-bottom: 2px; white-space: nowrap; }
+    .wordmark{ font-size: 0.6rem; letter-spacing: 0.1em; }
+  }
+  @media (max-width: 360px){
+    .topbar{ justify-content:center; text-align:center; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="topbar" id="topbar">
+    <a class="wordmark" href="#top">Private Luxury Collection</a>
+    <a class="topbar-cta" href="#request-form">Request a Private Copy</a>
+  </div>
+
+  <main id="top">
+
+    <!-- SECTION 1: HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow reveal">Private Luxury Collection</p>
+          <p class="eyebrow-sub reveal">Algarve · Lisbon · Comporta</p>
+          <h1 class="reveal">The Portugal Property Black Book</h1>
+          <h2 class="hero-sub reveal">Private-client intelligence for acquiring property in Portugal</h2>
+          <div class="hero-copy reveal">
+            <p>Portugal remains one of Western Europe's more stable jurisdictions for long-term capital and lifestyle allocation — but the Algarve, Lisbon and Comporta are three different markets with three different sets of rules. Identifying the right property is only one part of the decision.</p>
+            <p>The route to acquisition involves legal structure, planning consent, taxation, residency sequencing and market timing — and the answers differ by region, by price point, and by what you are ultimately optimising for: lifestyle optionality or capital preservation.</p>
+          </div>
+          <p class="hero-credibility reveal">Nearly two decades advising international buyers across the Algarve, Lisbon and Comporta · AMI 19171</p>
+          <div class="hero-cta reveal">
+            <a href="#request-form" class="btn">Request Your Private Copy</a>
+            <p class="hero-reassurance">No spam. No obligatory sales call — reviewed personally.</p>
+          </div>
+        </div>
+        <div class="book-stage reveal">
+          <div class="book" role="img" aria-label="The Portugal Property Black Book, a private-client publication by Private Luxury Collection">
+            <span class="book-mark">Private Luxury Collection</span>
+            <span class="book-rule"></span>
+            <span class="book-title">The Portugal<br>Property<em>Black Book</em></span>
+            <span class="book-foot">Vol. I — Private Edition</span>
+          </div>
+          <div class="book-shadow"></div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- SECTION 2: INTRODUCTION -->
+    <section class="section" id="introduction">
+      <div class="wrap intro-grid">
+        <div class="section-head reveal">
+          <h2>Understand the market before you commit to it.</h2>
+        </div>
+        <div class="intro-body reveal">
+          <p>The Portugal Property Black Book provides a considered introduction to the Portuguese property market for internationally mobile individuals and families who are beginning to explore an acquisition.</p>
+          <p>It is designed to help you understand the market before you commit to it.</p>
+          <p>The emphasis is not simply on finding property, but on understanding the factors that sit behind a property decision — the market, the location, the structure, the risks and the decisions that can materially affect the outcome.</p>
+          <p>Portugal has spent the past decade earning a specific kind of trust from internationally mobile capital: EU and Eurozone membership, a stable legal system, and one of Europe's more predictable planning and property-rights regimes. That is a different proposition from a lifestyle purchase, and it is worth separating the two. Some buyers are here to preserve capital in a jurisdiction they trust. Others are here to build a life. Most are doing some of both — and the sequencing of residency, tax position and property purchase changes depending on which matters more to you, and when.</p>
+          <p>The timing question is really two questions, not one: when to move, and when to buy. They do not have to happen at the same time — and for many of our clients, they shouldn't.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- SECTION 3: WHAT'S INSIDE -->
+    <section class="section" id="whats-inside">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Inside the Black Book</h2>
+          <p class="inside-intro">The Black Book explores the considerations that matter when approaching the Portuguese property market, including:</p>
+        </div>
+
+        <div class="inside-list reveal">
+          <div class="inside-item">
+            <h3>The market beyond the portals</h3>
+            <p>How the Portuguese property market operates beyond what is visible through online listings.</p>
+          </div>
+          <div class="inside-item">
+            <h3>Location and micro-markets</h3>
+            <p>The differences between regions, locations and individual micro-markets.</p>
+          </div>
+          <div class="inside-item">
+            <h3>Before you begin your search</h3>
+            <p>What international buyers should understand before beginning a search.</p>
+          </div>
+          <div class="inside-item">
+            <h3>The realities of acquisition and ownership</h3>
+            <p>The practical considerations involved in purchasing and owning property in Portugal.</p>
+          </div>
+          <div class="inside-item">
+            <h3>Legal, tax and residency considerations</h3>
+            <p>The wider issues that can affect property decisions and why specialist advice matters.</p>
+          </div>
+          <div class="inside-item">
+            <h3>Common assumptions and costly mistakes</h3>
+            <p>Areas where international buyers can make assumptions that do not necessarily reflect the Portuguese market.</p>
+          </div>
+          <div class="inside-item">
+            <h3>Assessing an opportunity</h3>
+            <p>How to look beyond an asking price when considering a property.</p>
+          </div>
+          <div class="inside-item">
+            <h3>Due diligence and long-term suitability</h3>
+            <p>Why planning, due diligence, liquidity, optionality and eventual resale matter.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- SECTION 4: WHO IT IS FOR -->
+    <section class="section" id="who-its-for">
+      <div class="wrap forwho-grid">
+        <div>
+          <div class="section-head reveal">
+            <h2>Who is the Black Book for?</h2>
+          </div>
+          <div class="forwho-copy reveal" style="margin-top:22px;">
+            <p>The Black Book is intended primarily for international individuals and families considering a significant property acquisition in Portugal, particularly those exploring properties from approximately €2 million upwards.</p>
+          </div>
+          <div class="forwho-closing reveal">
+            <p>You do not need to have decided what you want to buy.</p>
+            <p>In fact, the earlier you begin to understand the market, the more useful the information becomes.</p>
+          </div>
+        </div>
+        <div class="reveal">
+          <p class="eyebrow" style="margin-bottom:14px;">You may be</p>
+          <ul class="forwho-list">
+            <li><strong>Primary-residence families</strong> relocating to Portugal, in full or in part</li>
+            <li><strong>Second-home lifestyle buyers</strong> seeking a considered base in the Algarve, Lisbon or Comporta</li>
+            <li><strong>Capital-preservation buyers</strong> using property as a stable-jurisdiction allocation</li>
+            <li><strong>Yield-orientated investors</strong> evaluating the Portuguese market on its numbers</li>
+            <li><strong>Legacy and multi-generational buyers</strong> planning for family use across decades</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ: DIRECT ANSWERS -->
+    <section class="section faq-section" id="faq">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>A few questions, answered directly</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details class="faq-item">
+            <summary>Does buying property in Portugal still qualify for the Golden Visa?</summary>
+            <div class="faq-answer">
+              <p>No. Since October 2023, standard real estate investment no longer qualifies under Portugal's Golden Visa routes. Other residency pathways may still be relevant depending on your circumstances, and we recommend independent immigration advice to confirm what applies to you.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>What is the difference between NHR and IFICI?</summary>
+            <div class="faq-answer">
+              <p>NHR (Non-Habitual Resident) was Portugal's previous tax regime for new residents. IFICI is its successor, with its own eligibility criteria and timelines. Whether either applies to you depends on your personal circumstances — this is a question for independent tax advice, which we can help you access.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Is genuinely off-market property available in Portugal, or is that a marketing phrase?</summary>
+            <div class="faq-answer">
+              <p>Both exist, and it matters to know the difference. Some of our properties are actively marketed, through our own site and, where a seller wants that reach, selected portals. Others are held entirely privately, with no public marketing whatsoever, and are only ever shared directly with qualified buyers through our network. The Black Book exists because that second, unadvertised layer of the market is real — and a meaningful part of what we do is giving buyers access to it.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>What budget is realistic for a serious search in the Algarve or Lisbon?</summary>
+            <div class="faq-answer">
+              <p>The Black Book is written primarily for acquisitions from approximately €2 million upwards. Below that threshold, different resources and different parts of the market are likely more relevant to you.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Do I need to visit Portugal before I can begin the process?</summary>
+            <div class="faq-answer">
+              <p>No. Many of our clients begin their search remotely, though a visit becomes important before any final decision is made.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: THE DIFFERENCE -->
+    <section class="difference">
+      <div class="wrap reveal">
+        <div class="difference-rule"></div>
+        <h2>A different way to approach the Portuguese market</h2>
+        <div class="difference-copy">
+          <p>Much of the information available online is designed to help people find property. The Black Book takes a different approach.</p>
+          <p>It is designed to help you understand <span class="accent">what sits behind</span> the property — the market, the location, the structure, the risks and the decisions that can materially affect the outcome.</p>
+          <p>Because in Portugal, what looks straightforward from the outside is not always straightforward once you start looking beneath the surface.</p>
+        </div>
+        <p class="difference-signature">— Keely Capel, Founder, Private Luxury Collection</p>
+      </div>
+    </section>
+
+    <!-- SECTION 6: REQUEST FORM -->
+    <section class="section" id="request-form">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Request your private copy</h2>
+          <div class="request-intro">
+            <p>The Portugal Property Black Book is provided privately following a brief qualification. Each request is reviewed personally.</p>
+            <p>If you would like to receive a copy, tell us a little about yourself and what is bringing you to the Portuguese property market.</p>
+            <p class="request-license">Private Luxury Collection · AMI 19171 · APEMIP 6395</p>
+          </div>
+        </div>
+
+        <div class="form-shell reveal">
+          <form id="blackbook-form" novalidate action="https://privateluxurycollection.us20.list-manage.com/subscribe/post?u=4051acad84cfd980d437aa7bc&amp;id=e3334944b5&amp;f_id=00c05feef0" method="post" target="mc-hidden-iframe-blackbook" data-mc-form="blackbook">
+
+            <div class="field-row">
+              <div class="field">
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name="FNAME" autocomplete="given-name" required>
+              </div>
+              <div class="field">
+                <label for="lastName">Last name</label>
+                <input type="text" id="lastName" name="LNAME" autocomplete="family-name" required>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="EMAIL" autocomplete="email" required>
+              </div>
+              <div class="field">
+                <label for="country">Country of residence</label>
+                <select id="country" name="RESIDENT" required>
+                  <option value="" disabled selected>Select country</option>
+                  <option>United Kingdom</option>
+                  <option>Ireland</option>
+                  <option>United States</option>
+                  <option>Canada</option>
+                  <option>Portugal</option>
+                  <option>Germany</option>
+                  <option>Netherlands</option>
+                  <option>Sweden</option>
+                  <option>Norway</option>
+                  <option>Denmark</option>
+                  <option>Switzerland</option>
+                  <option>France</option>
+                  <option>United Arab Emirates</option>
+                  <option>Saudi Arabia</option>
+                  <option>South Africa</option>
+                  <option>Brazil</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="reason">What brings you to Portugal?</label>
+              <select id="reason" name="MMERGE21" required>
+                <option value="" disabled selected>Select an option</option>
+                <option>Considering a future residence or second home</option>
+                <option>Exploring relocation</option>
+                <option>Property investment / portfolio</option>
+                <option>Considering a significant property acquisition</option>
+                <option>Researching the market</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="journey">Where are you in your property journey?</label>
+                <select id="journey" name="MMERGE22" required>
+                  <option value="" disabled selected>Select an option</option>
+                  <option>Just researching</option>
+                  <option>Considering a purchase within 12 months</option>
+                  <option>Actively looking</option>
+                  <option>Considering a specific property</option>
+                  <option>Already in discussions regarding a purchase</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="budget">Indicative property budget</label>
+                <select id="budget" name="MMERGE9" required>
+                  <option value="" disabled selected>Select an option</option>
+                  <option value="under €1 million">Under €1 million</option>
+                  <option value="€1 million - €2 million">€1 million – €2 million</option>
+                  <option value="€2 million - €5 million">€2 million – €5 million</option>
+                  <option value="€5 million - €10 million">€5 million – €10 million</option>
+                  <option value="€10 million+">€10 million+</option>
+                  <option value="Not yet determined">Not yet determined</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone <span class="optional">(optional)</span></label>
+              <input type="tel" id="phone" name="PHONE" autocomplete="tel">
+            </div>
+
+            <p class="form-note">Your details are reviewed privately by our team. Requesting the Black Book does not commit you to a consultation, and we will never share your information with third parties.</p>
+
+            <div aria-hidden="true" style="position:absolute; left:-5000px;">
+              <input type="text" name="b_4051acad84cfd980d437aa7bc_e3334944b5" tabindex="-1" value="">
+            </div>
+            <input type="hidden" name="tags" value="4242944">
+
+            <div class="form-submit">
+              <button type="submit" class="btn">Request My Private Copy</button>
+            </div>
+          </form>
+          <iframe name="mc-hidden-iframe-blackbook" id="mc-hidden-iframe-blackbook" style="display:none;" title="form submission"></iframe>
+
+          <div class="form-success" id="form-success" hidden>
+            <h3>Thank you.</h3>
+            <p>Your request has been received and will be reviewed personally. If your details suggest we can be of further help, a member of the Private Luxury Collection team may reach out directly — there is no obligation, and no sales call is automatically triggered.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <!-- SECONDARY ROUTE: ALREADY CONSIDERING A PURCHASE -->
+    <section class="section" id="consultation" style="padding-block: clamp(48px, 6vw, 72px);">
+      <div class="wrap">
+        <div class="reveal" style="max-width:640px;">
+          <p class="eyebrow">Already exploring a specific acquisition?</p>
+          <h2 style="font-size:clamp(1.4rem,2.4vw,1.9rem);">If you are already considering a purchase, a conversation may be more useful than the Black Book alone.</h2>
+          <p style="color:var(--ink-soft); margin-top:16px; font-size:1.02rem;">For visitors already actively evaluating a Portuguese property, we offer a confidential, no-obligation consultation with our team.</p>
+
+          <form id="consultation-form" class="consult-form" novalidate style="margin-top:26px;" action="https://privateluxurycollection.us20.list-manage.com/subscribe/post?u=4051acad84cfd980d437aa7bc&amp;id=e3334944b5&amp;f_id=00c05feef0" method="post" target="mc-hidden-iframe-consult" data-mc-form="consultation">
+            <div class="field-row">
+              <div class="field">
+                <label for="cName">Name</label>
+                <input type="text" id="cName" name="FNAME" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="cEmail">Email address</label>
+                <input type="email" id="cEmail" name="EMAIL" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="field" style="margin-top:22px;">
+              <label for="cNote">What are you considering? <span class="optional">(optional)</span></label>
+              <input type="text" id="cNote" name="MMERGE23" placeholder="e.g. a property in Vale do Lobo">
+            </div>
+
+            <div aria-hidden="true" style="position:absolute; left:-5000px;">
+              <input type="text" name="b_4051acad84cfd980d437aa7bc_e3334944b5" tabindex="-1" value="">
+            </div>
+            <input type="hidden" name="tags" value="4242944">
+
+            <div class="form-submit">
+              <button type="submit" class="btn" style="background:transparent; color:var(--ink);">Request a Confidential Consultation</button>
+            </div>
+          </form>
+          <iframe name="mc-hidden-iframe-consult" id="mc-hidden-iframe-consult" style="display:none;" title="form submission"></iframe>
+          <div class="form-success" id="consult-success" hidden>
+            <h3>Thank you.</h3>
+            <p>Your request has been received and will be reviewed personally. Please choose a time below for your confidential consultation.</p>
+            <div id="cal-inline-embed" style="width:100%; min-height:650px; margin-top:6px;"></div>
+            <p class="consult-fallback" style="margin-top:4px;">Calendar not loading? <a href="https://cal.com/private-luxury-collection-sigdky/blackbook-confidential-consultation" target="_blank" rel="noopener">Book directly here</a>.</p>
+          </div>
+          <p class="consult-fallback">Prefer email? Write to us directly at <a href="mailto:info@privateluxurycollection.com?subject=Confidential%20Consultation%20Request">info@privateluxurycollection.com</a>.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <p><strong>Private Luxury Collection</strong></p>
+          <p>Vilamoura, Algarve, Portugal</p>
+          <p>Advising internationally across the Algarve, Lisbon and Comporta</p>
+        </div>
+        <div class="footer-col">
+          <p>info@privateluxurycollection.com</p>
+          <p>+351 915 471 151</p>
+        </div>
+        <div class="footer-col">
+          <p>Centelha D'Exito Unipessoal Lda</p>
+          <p>AMI 19171 &nbsp;·&nbsp; APEMIP 6395</p>
+        </div>
+      </div>
+      <p class="footer-legal">Private Luxury Collection operates a declared, managed dual-interest advisory model. Market commentary is offered as advisory opinion and does not constitute a formal valuation or professional tax or legal advice.</p>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://blackbook.privateluxurycollection.com/#organization",
+        "name": "Private Luxury Collection",
+        "legalName": "Centelha D'Exito Unipessoal Lda",
+        "url": "https://www.privateluxurycollection.com",
+        "email": "info@privateluxurycollection.com",
+        "telephone": "+351915471151",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Caminho das Sears 50",
+          "addressLocality": "Vilamoura",
+          "postalCode": "8125-417",
+          "addressCountry": "PT"
+        },
+        "areaServed": ["Algarve", "Lisbon", "Comporta", "Portugal"],
+        "founder": { "@id": "https://blackbook.privateluxurycollection.com/#keely-capel" },
+        "identifier": [
+          { "@type": "PropertyValue", "name": "AMI Licence", "value": "19171" },
+          { "@type": "PropertyValue", "name": "APEMIP", "value": "6395" }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://blackbook.privateluxurycollection.com/#keely-capel",
+        "name": "Keely Capel",
+        "jobTitle": "Founder & Managing Director",
+        "worksFor": { "@id": "https://blackbook.privateluxurycollection.com/#organization" },
+        "knowsAbout": ["Portuguese real estate", "Algarve property market", "International property acquisition"]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://blackbook.privateluxurycollection.com/#webpage",
+        "url": "https://blackbook.privateluxurycollection.com/",
+        "name": "The Portugal Property Black Book",
+        "description": "Private-client intelligence on buying property in Portugal — Algarve, Lisbon & Comporta.",
+        "isPartOf": { "@id": "https://blackbook.privateluxurycollection.com/#organization" },
+        "about": { "@id": "https://blackbook.privateluxurycollection.com/#organization" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does buying property in Portugal still qualify for the Golden Visa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Since October 2023, standard real estate investment no longer qualifies under Portugal's Golden Visa routes. Other residency pathways may still be relevant depending on individual circumstances; independent immigration advice is recommended."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between NHR and IFICI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NHR (Non-Habitual Resident) was Portugal's previous tax regime for new residents. IFICI is its successor, with its own eligibility criteria. Applicability depends on personal circumstances and should be confirmed with independent tax advice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is genuinely off-market property available in Portugal, or is that a marketing phrase?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both exist. Some properties are actively marketed, through Private Luxury Collection's own site and, where a seller wants that reach, selected portals. Others are held entirely privately with no public marketing, shared only directly with qualified buyers through the firm's network."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What budget is realistic for a serious search in the Algarve or Lisbon?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Black Book is written primarily for acquisitions from approximately €2 million upwards."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to visit Portugal before I can begin the process?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Many clients begin their search remotely, though a visit becomes important before any final decision is made."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+<script>
+(function(){
+  "use strict";
+
+  // Sticky top bar hairline on scroll
+  var topbar = document.getElementById('topbar');
+  var onScroll = function(){
+    if (window.scrollY > 12) topbar.classList.add('is-scrolled');
+    else topbar.classList.remove('is-scrolled');
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // Scroll reveal
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('is-visible'); });
+  }
+
+  // Form handling — real Mailchimp submission via hidden iframe.
+  //
+  // Both forms post directly to Private Luxury Collection's Mailchimp
+  // audience (tagged "blackbook") using the classic subscribe/post
+  // endpoint. A form posted with target="<hidden iframe>" is a genuine
+  // cross-origin POST that browsers allow without CORS (unlike fetch/
+  // XHR), so this works even inside a sandboxed preview — the visitor
+  // never leaves the page, and Mailchimp's response loads invisibly
+  // into the iframe rather than replacing the page.
+  //
+  // Booking calendar — Cal.com, embedded directly on the page (Free
+  // plan) rather than linked out to, so we can detect a completed
+  // booking with client-side JS and move the visitor on to a proper
+  // thank-you page ourselves, instead of relying on Cal.com's paid
+  // "Redirect on booking" setting (Teams plan and above).
+  var CAL_LINK = 'private-luxury-collection-sigdky/blackbook-confidential-consultation';
+  var CAL_NAMESPACE = 'blackbookConsult';
+  var calEmbedLoaded = false;
+
+  // Loads Cal.com's official embed bootstrap the first time it's
+  // actually needed (i.e. once someone has submitted the consultation
+  // form) rather than on every page load, then renders the booking
+  // widget inline into #cal-inline-embed and listens for a completed
+  // booking to hand off to the thank-you page.
+  function showConsultationCalendar(prefill){
+    var container = document.getElementById('cal-inline-embed');
+    if (!container) return;
+
+    function render(){
+      var Cal = window.Cal;
+      if (typeof Cal !== 'function') return;
+
+      Cal('init', CAL_NAMESPACE, { origin: 'https://cal.com' });
+
+      var config = { layout: 'month_view' };
+      if (prefill){
+        if (prefill.name)  config.name  = prefill.name;
+        if (prefill.email) config.email = prefill.email;
+        if (prefill.notes) config.notes = prefill.notes;
+      }
+
+      Cal.ns[CAL_NAMESPACE]('inline', {
+        elementOrSelector: '#cal-inline-embed',
+        calLink: CAL_LINK,
+        config: config
+      });
+
+      Cal.ns[CAL_NAMESPACE]('ui', {
+        theme: 'light',
+        hideEventTypeDetails: false,
+        layout: 'month_view'
+      });
+
+      // Fires once the visitor actually completes a booking in the
+      // embedded widget — this, not the earlier Mailchimp submission,
+      // is the real completion signal for the consultation flow.
+      Cal.ns[CAL_NAMESPACE]('on', {
+        action: 'bookingSuccessfulV2',
+        callback: function(e){
+          var data = (e && e.detail && e.detail.data) || {};
+          var params = new URLSearchParams();
+          if (prefill && prefill.name) params.set('attendeeFirstName', prefill.name);
+          if (data.startTime) params.set('attendeeStartTime', data.startTime);
+          if (data.title) params.set('title', data.title);
+          window.location.href = 'thank-you.html' + (params.toString() ? ('?' + params.toString()) : '');
+        }
+      });
+    }
+
+    if (calEmbedLoaded){
+      render();
+      return;
+    }
+    calEmbedLoaded = true;
+
+    // Official Cal.com embed bootstrap loader.
+    (function (C, A, L) {
+      let p = function (a, ar) { a.q.push(ar); };
+      let d = C.document;
+      C.Cal = C.Cal || function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () { p(api, arguments); };
+          const namespace = ar[1];
+          api.q = api.q || [];
+          if (typeof namespace === "string") {
+            cal.ns[namespace] = cal.ns[namespace] || api;
+            p(cal.ns[namespace], ar);
+            p(cal, ["initNamespace", namespace]);
+          } else p(cal, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+    })(window, "https://app.cal.com/embed/embed.js", "init");
+
+    // The bootstrap queues calls before the real script has loaded, so
+    // it's safe to call render() immediately after — Cal() above just
+    // queues init/inline/ui/on until the injected script executes them.
+    render();
+  }
+
+  function wireMailchimpForm(formId, successId, iframeId, onSuccess){
+    var form = document.getElementById(formId);
+    var success = document.getElementById(successId);
+    var iframe = document.getElementById(iframeId);
+    if (!form || !success || !iframe) return;
+
+    var justSubmitted = false;
+    var settled = false;
+    var fallbackTimer = null;
+    var leadType = formId === 'consultation-form' ? 'confidential_consultation' : 'blackbook_request';
+
+    // Fires exactly once per submission, however we get there — a real
+    // load event from Mailchimp's response, or the safety-net timeout
+    // below if that response never arrives (blocked third-party frame,
+    // slow connection, ad blocker). Either way the visitor moves
+    // forward instead of being left stuck on a form that looks dead.
+    function complete(){
+      if (settled) return;
+      settled = true;
+      justSubmitted = false;
+      if (fallbackTimer){ clearTimeout(fallbackTimer); fallbackTimer = null; }
+
+      // Conversion events — fire once per genuine submission attempt.
+      if (typeof gtag === 'function'){
+        gtag('event', 'generate_lead', { form_id: formId, lead_type: leadType });
+      }
+      if (typeof fbq === 'function'){
+        fbq('track', 'Lead', { content_name: leadType });
+      }
+
+      if (typeof onSuccess === 'function'){
+        onSuccess();
+      } else {
+        form.hidden = true;
+        success.hidden = false;
+        success.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    form.addEventListener('submit', function(e){
+      if (!form.checkValidity()){
+        e.preventDefault();
+        form.reportValidity();
+        return;
+      }
+      // Valid — let the browser perform the native POST into the
+      // hidden iframe (do not preventDefault; that's what actually
+      // sends the data to Mailchimp).
+      justSubmitted = true;
+      settled = false;
+
+      // Safety net: Mailchimp's response normally loads into the iframe
+      // within a couple of seconds. If it doesn't — a blocked frame, a
+      // slow connection, whatever — don't leave the visitor stuck with
+      // no confirmation and no way forward. Move on anyway after a
+      // short wait; the submission itself has already been sent
+      // regardless of whether we see the response.
+      fallbackTimer = setTimeout(complete, 4000);
+    });
+
+    // The iframe's load event fires once on page load (empty frame,
+    // ignored) and again after Mailchimp returns its response to the
+    // submitted POST — that second fire is our real completion signal.
+    iframe.addEventListener('load', function(){
+      if (!justSubmitted) return;
+      complete();
+    });
+  }
+
+  wireMailchimpForm('blackbook-form', 'form-success', 'mc-hidden-iframe-blackbook');
+
+  wireMailchimpForm('consultation-form', 'consult-success', 'mc-hidden-iframe-consult', function(){
+    var form = document.getElementById('consultation-form');
+    var success = document.getElementById('consult-success');
+    form.hidden = true;
+    success.hidden = false;
+    success.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    var nameField  = document.getElementById('cName');
+    var emailField = document.getElementById('cEmail');
+    var noteField  = document.getElementById('cNote');
+    showConsultationCalendar({
+      name:  nameField  ? nameField.value  : '',
+      email: emailField ? emailField.value : '',
+      notes: noteField  ? noteField.value  : ''
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
