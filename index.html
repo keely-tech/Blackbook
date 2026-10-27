@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7DCVW0VGLF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}var plcConsent=null;try{plcConsent=localStorage.getItem('plc_consent');}catch(e){}gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});if(plcConsent==='granted'){gtag('consent','update',{ad_storage:'granted',analytics_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-7DCVW0VGLF"></script>
 <script>
   // PLC internal-traffic flag
   (function () {
@@ -41,7 +41,7 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '7977617505597315');
+fbq('consent', plcConsent === 'granted' ? 'grant' : 'revoke'); fbq('init', '7977617505597315');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
@@ -1425,5 +1425,5 @@ src="https://www.facebook.com/tr?id=7977617505597315&ev=PageView&noscript=1"
 })();
 </script>
 
-</body>
+<script src="consent.js"></script></body>
 </html>
